@@ -20,6 +20,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "float",
   description: "float",
+  robots: { 
+    index: false,
+    follow: false,
+  }
 };
 
 export default function RootLayout({
